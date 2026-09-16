@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+*~
+.DS_Store
+
+# Runtime state / logs
+logs/
+*.log
+runtime/
+state/
+.tmp/
+tmp/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+# Local-only configuration
+config/local*.json
+config/secrets*.json
+
+# Task attachments / generated artifacts (unless intentionally promoted)
+attachments/
+artifacts/tmp/
